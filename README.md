@@ -1,9 +1,11 @@
-## Ueberzug-rs
+# Ueberzug-rs
 [Ueberzug-rs](https://github.com/Adit-Chauhan/Ueberzug-rs) This project provides simple bindings to that [ueberzug](https://github.com/seebye/ueberzug) to draw images in the terminal.
 
 This code was inspired from the [termusic](https://github.com/tramhao/termusic) to convert their specilized approach to a more general one.
 
-### Examples
+**Note:** This project needs ueberzug to be installed and be in the system path.
+
+## Examples
 this example will draw image for 2 seconds, erase the image and wait 1 second before exiting the program.
 ```rust
 use std::thread::sleep;
